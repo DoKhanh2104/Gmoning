@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding-top: 13.6rem;
+}
+:root{
+    --bg-color:#FFFFFF;
+    --second-bg-color:#464646;
+    --third-color:#EEEEEE;
+    --icon-color:#7D64AA;
+}
+.logo img{
+    width:28rem ;
+}
+.row1-1{
+    width: 114rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem auto;
+    padding: 1.6rem 0;
+}
+.icon-header i{
+    font-size: 2.9rem;
+    margin-left: 1.5rem ;
+    color: var(--icon-color);
+}
+.icon-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.global{
+    width: 1.8rem;
+}
+label{
+    display: flex;
+    font-size: 1.6rem;
+}
+select{
+    margin: 0 1.5rem;
+    outline: none;
+}
+.form a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: var(--icon-color);
+    padding: 0.48rem 1.6rem;
+    border-radius: 8%;
+    transition: 0.3s ease;
+}
+.form a:hover{
+    opacity: 0.7;
+}
+.row_2{
+    background: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 13.6rem;
+}
+.row_2 a{
+    text-decoration: none;
+    color:#FFFFFF;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+.row_2 a:hover{
+    background:#262626 ;
+    color: var(--icon-color);
+}
+.row_2 a:nth-child(5),.row_2 a:nth-child(8){
+    border-right:0.1rem solid #303030 ;
+}
+.bg{
+    background-image: url("images/news-on-laptop_vb.jpeg");
+    width: 100%;
+	background-size:cover;
+    background-position: center;
+    min-height: 30rem;
+}
+.bg h1{
+    font-size: 3rem;
+    font-weight:100 ;
+    padding-bottom: 2.5rem;
+    padding-top: 15rem;
+}
+.bg p{
+    font-size: 1.5rem;
+}
+.td{
+    width: 114rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+}
+.bg p a{
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s ease;
+}
+.bg p a:hover{
+    color: var(--icon-color);
+}
+section{
+    width: 114rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 9.5rem;
+}
+main{
+    flex: 1.5;
+    padding: 2rem;
+}
+aside{
+    flex: 1;
+}   
+.box{
+    display: flex;
+    align-items: flex-start;
+    border: 0.1rem solid rgb(236, 236, 236);
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 0.3rem;
+    background: rgb(251, 251, 251);
+    margin-bottom: 2rem;
+    transition: 0.3s ease;
+}
+.box:hover{
+    background: rgb(241, 241, 241);
+    transform: scale(1.02);
+}
+.box img{
+    margin-right: 5rem;
+}
+.content1 h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.content1 h1 a{
+    text-decoration: none;
+    color: #262626;
+}
+.content1 h1 a:hover{
+    text-decoration:underline;
+}
+.p1{
+    font-size: 1.3rem;
+}
+.p2{
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    line-height: 2.4rem;
+    color: #6A6A6A;
+}
+.ads1{
+    background: #F5F6FB;
+    border: 0.1rem solid rgb(236, 236, 236);
+    border-radius: 0.3rem;
+    margin-left: 5.5rem;
+    margin-top: 2rem; ;
+    padding: 3rem;
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ads1 .logo{
+    display: flex;
+    justify-content: center;
+}
+.ads1 .logo img{
+    width: 5.4rem;
+}
+.ads1 h1{
+    font-size:2rem;
+    text-align: center;
+    margin: 3rem 0 0.6rem 0;
+}
+.ads1 p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+.ads1 .btn{
+    display: flex;
+    justify-content: center;
+}
+.ads1 .btn a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 1.8rem;
+    padding: 0.48rem 1.6rem;
+    border:0.1rem solid #262626;
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+    margin-right: 0.7rem;
+    transition: 0.3s ease;
+    font-weight: 100;
+}
+.ads1 .btn .a1:hover{
+    background: var(--second-bg-color);
+    color: var(--third-color);
+}
+.ads1 .btn .a2{
+    background: #262626;
+    color: var(--third-color);
+}
+.ads1 .btn .a2:hover{
+    opacity: 0.7;
+}
+.ads1 .btn .a3{
+    border: 0.1rem solid #840D18;
+    font-size: 1.6rem;
+    color: #840D18;
+}
+.ads1 .btn .a3:hover{
+    color: var(--third-color);
+    background: #840D18;
+}
+.ads1-1{
+    margin-top: 4rem;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    border-top:0.1rem solid rgb(236, 236, 236) ;
+    border-bottom:0.1rem solid rgb(236, 236, 236) ;
+    background:rgb(251, 251, 251); 
+    padding: 1rem;
+}
+.page p{
+    font-size: 1.2rem;
+    color: #A6A9AC;
+}
+.page a{
+    text-decoration: none;
+    color: var(--icon-color);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+.page a:hover{
+    text-decoration: underline;
+    background:rgb(241, 241, 241); 
+}
+.row3{
+    background:var(--third-color) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    border-top:0.1rem solid rgb(225, 225, 225) ;
+}
+.ft-logo img{
+    border-radius: 50%;
+    background: white;
+    padding: 0.2rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+.ft-content{
+    display: flex;
+    margin-top: 4rem;
+}
+.ft-content a{
+    display: block;
+    text-decoration: none;
+    color: #6A6A6A;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    transition: 0.3s ease;
+}
+.ft-content a:hover{
+    color: var(--icon-color);
+}
+.ft-content h3{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.ft-content .ct{
+    margin-right: 4rem;
+}
+.ft-logo2 i{
+    font-size: 3rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    color: var(--icon-color);
+    border: 0.2rem  solid var(--icon-color);
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+.ft-logo2 i:hover{
+    color: var(--third-color);
+    background: var(--icon-color);
+}
+.row4{
+    background: var(--second-bg-color);
+    font-size: 1.6rem;
+    padding: 2.5rem 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.row4 p{
+    color: var(--third-color);
+}
+.row4 a{
+    text-decoration: none;
+    color: var(--third-color);
+    margin-right: 1rem;
+    transition: 0.3s ease;
+}
+.row4 a:hover{  
+    color: var(--icon-color);
+}
+.p1{
+    min-width: 300px;
+    height: 270px;
+}
+.pp2{
+    min-width: 300px;
+    height: 225px;
+}
